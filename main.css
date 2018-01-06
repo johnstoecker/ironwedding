@@ -1,0 +1,13 @@
+.main-container {
+  size: 100vh;
+  height: 100vh;
+  background-image: url("https://lh3.googleusercontent.com/ETnTTN4YDluKw7wIx_1WYapiD1zayCzvIkssp72kC_aV7BkvxoXvbkpv4sR89fHbmoW_dV82RHd35v2jjPxsTwVpdebY84lV7jVveKfpY7R8bIDc5I5jEy4mHaHtJY0HNqMHATeyYg=w2070-h1552-no");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-title {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 64px;
+}
