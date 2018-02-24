@@ -11,3 +11,95 @@
   padding-top: 40px;
   font-size: 64px;
 }
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.top-nav-link {
+  margin: 10px;
+
+}
+
+/*TODO: make this responsive  */
+.story-timeline {
+  width: 800px;
+  margin: auto;
+}
+
+.timeline-top-divider {
+  height: 80px;
+  width: 10px;
+  background-color: grey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 3px 3px black;
+  margin: 10px auto 0px auto;
+}
+
+.timeline-divider {
+  height: 80px;
+  width: 10px;
+  background-color: grey;
+  /* border-radius: 5px; */
+  box-shadow: 3px 3px black;
+  margin: 0px auto;
+}
+
+.story {
+  display: flex;
+  max-height: 400px;
+  align-items: center;
+  border-radius: 10px;
+  border: 10px solid grey;
+  box-shadow: 3px 3px black;
+}
+
+.story img {
+  width: 400px;
+}
+
+.story-text {
+  padding: 10px;
+}
+
+.tooltip {
+  position: relative;
+  color: #bd0000;
+}
+
+.hover-joke {
+  display: none;
+  border:10px solid black;
+  border-radius: 5px;
+  z-index: 999;
+/* lol maybe not */
+  /* -webkit-animation: hoverJokeBlink 1s step-end infinite;
+  animation: hoverJokeBlink 1s step-end infinite; */
+}
+
+.tooltip:hover .hover-joke {
+  display: block;
+  position: absolute;
+}
+
+@keyframes hoverJokeBlink {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: red
+    }
+}
+
+.wedding-details {
+  width: 300px;
+  margin: auto;
+}
+
+@media max-width: 800px {
+  .story-timeline {
+    width: 500px;
+  }
+}
