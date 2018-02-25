@@ -83,7 +83,14 @@ background: transparent;
  -moz-animation-delay:2s;
 }
 
+.top-nav {
+  display: flex;
+  justify-content: center;
+}
 
+.top-nav-link {
+  margin: 10px;
+}
 
 /*TODO: make this responsive  */
 .story-timeline {
@@ -196,4 +203,3 @@ background: transparent;
 }
 
 /* @media (max-width: ) */
-
