@@ -38,6 +38,25 @@
   margin: 10px auto 0px auto;
 }
 
+.timeline-bottom-divider {
+  height: 80px;
+  width: 10px;
+  background-color: grey;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 3px 3px black;
+  margin: 0px auto;
+}
+
+.timeline-divider-dot {
+  height: 30px;
+  width: 10px;
+  background-color: grey;
+  border-radius: 5px;
+  box-shadow: 3px 3px black;
+  margin: 0px auto;
+}
+
 .timeline-divider {
   height: 80px;
   width: 10px;
