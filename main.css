@@ -79,6 +79,11 @@
   animation: hoverJokeBlink 1s step-end infinite; */
 }
 
+.hover-joke img {
+  /* some google photos BS */
+  margin-bottom: -5px;
+}
+
 .tooltip:hover .hover-joke {
   display: block;
   position: absolute;
