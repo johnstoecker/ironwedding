@@ -1,3 +1,9 @@
+body {
+  font-family: Raleway;
+  color:#333;
+  margin: 0;
+}
+
 .main-container {
   size: 100vh;
   height: 100vh;
@@ -6,21 +12,78 @@
   background-position: center;
 }
 
-.main-title {
+
+
+.main-title{
   text-align: center;
   padding-top: 40px;
   font-size: 64px;
-}
-
-.top-nav {
-  display: flex;
-  justify-content: center;
-}
-
-.top-nav-link {
-  margin: 10px;
+  animation: fadein 2s;
+   -moz-animation: fadein 2s; /* Firefox */
+   -webkit-animation: fadein 2s; /* Safari and Chrome */
+  /* animation-delay: 1s;
+   -webkit-animation-delay: 1s;
+   -moz-animation-delay: 1s; */
 
 }
+
+
+button{
+position: absolute;
+top:48px;
+right: 40px;
+padding: 20px;
+font-size: 14px;
+letter-spacing: 2px;
+padding: 18px;
+border: 3px solid #333;
+background: transparent;
+}
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  animation-duration:2s;
+
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+ -moz-animation-delay:1s;
+}
+
+.fade-in-button {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  animation-duration:2s;
+
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+ -moz-animation-delay:2s;
+}
+
+
 
 /*TODO: make this responsive  */
 .story-timeline {
@@ -114,3 +177,4 @@
 }
 
 /* @media (max-width: ) */
+
