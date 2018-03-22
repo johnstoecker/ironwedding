@@ -1,7 +1,7 @@
 body {
   font-family: Raleway;
   letter-spacing: 1px;
-  line-height: 1.4;
+  line-height: 1.6;
   color:#474762;
   margin: 0;
   background-color: snow;
@@ -129,7 +129,7 @@ height:682.5px;
 
 }
 
-#cta {
+.cta {
  width: 300px;
  margin-left: 30px;
  display: inline-block;
@@ -142,7 +142,7 @@ h6 {
   margin: 25px 0;
 }
 
-#cta a {
+.cta a {
   border: 2px solid #474762;
   padding: 10px 15px;
   font-size: 14px;
@@ -150,10 +150,11 @@ h6 {
 }
 
 
-
+.flex {
+    display: flex;
+}
 
 .wedding-details {
-  display: flex;
   width: 900px;
   margin:auto;
   background-color: #fff;
@@ -188,6 +189,64 @@ h6 {
   display: inline-block;
   position: relative;
   top:15px;
+}
+
+.text {
+  text-align: center;
+  width:100%;
+  margin:10px 0;
+}
+
+#add-margin {
+  margin: 20px 40px;
+}
+
+#hotel {
+  flex-basis: 40%;
+}
+
+#directions {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#directions iframe {
+  flex-basis:60%;
+}
+
+iframe {
+  margin-top: 10px;
+}
+
+#city-club img {
+  width:350px;
+  margin: 30px 50px 0 10px;
+  display: inline-block;
+
+}
+
+#rooms {
+  font-size: 16px;
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  top:-30px;
+}
+
+#rooms span {
+color: #EA8A44;
+}
+
+
+#other-hotels {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#other-hotels div {
+  margin:0 10px
 }
 
 /*TODO: make this responsive  */
