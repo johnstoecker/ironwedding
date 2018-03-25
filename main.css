@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Rennie;
+  src:url('rennie_mackintosh_itc_light.ttf');
+}
+
 body {
   font-family: Raleway;
   letter-spacing: 1px;
@@ -96,14 +101,17 @@ background: transparent;
 
 h1 {
   flex-basis: 50%;
-  font-size: 20px;
+  font-size: 24px;
+  margin: 12px 0 0 0;
   position: relative;
+  font-family: rennie;
+  letter-spacing: 2px;
 }
 
 nav{
     flex-basis: 50%;
     justify-content: right;
-    padding-top: 5px;
+    padding-top: 3px;
 
 }
 
